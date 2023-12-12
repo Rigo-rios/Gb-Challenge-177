@@ -134,6 +134,7 @@ namespace InsClaims.UI
                 PressAnyKey();
             }
 
+
             private void ProcessClaimFiled()
             {
                 Clear();

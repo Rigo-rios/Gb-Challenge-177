@@ -31,7 +31,6 @@ namespace InsClaims.data
         public DateTime DateOfIncident { get; set; }
         public DateTime DateOfClaim { get; set; }
         public bool IsValid
-
         {
             get
             {

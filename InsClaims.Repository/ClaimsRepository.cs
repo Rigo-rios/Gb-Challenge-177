@@ -16,6 +16,7 @@ public ClaimsRepository()
     _OrderOfClaims = new Queue<ClaimFiled>();
     Seed();
 }
+
 private void Seed()
 {
     ClaimFiled Client1 = new ClaimFiled(ClaimType.CAR,"Car On Car Collision, Car Damaging Radiator Spark Plug Components",5650,true);
